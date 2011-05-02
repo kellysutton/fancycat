@@ -12,12 +12,11 @@ the HTML template files of any modern framework. This means the HTML
 file itself is the build script. No more maintaining separate
 build scripts.
 
-blip.tv uses Varnish and ESIs, so we use the <code><esi:comment></code> tags
+blip.tv uses Varnish and ESIs, so we use the `<esi:comment>` tags
 to separate our the different final JS files we want packaged up.
 
 Example
 --------
-
 
    <esi:comment text="Global.js" />
    <script src="BLIP.js" />
