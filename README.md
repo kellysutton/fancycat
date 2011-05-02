@@ -1,7 +1,7 @@
 Fancycat.rb
 ===========
 
-_Fancycat is fancy like Octocat. It concatenates JavaScript files in large web applications._
+_Fancycat concatenates JavaScript files in large web applications. It parties with Octocat_
 
 
 fancycat.rb is a script that reads our a list of template files
@@ -36,9 +36,9 @@ Getting Started
 
 Fancycat should be run on the commandline with your HTML templates as arguments. Example:
 
-<pre>
-	kelly% fancycat.rb templ/blipnew/template1.phtml templ/blipnew/template1.phtml
-</pre>
+
+	kelly% fancycat.rb templ/blipnew/template1.phtml templ/blipnew/template2.phtml
+
 
 blip.tv uses [Varnish](http://www.varnish-cache.org/) and [ESIs](http://bignosebird.com/sdocs/extend.shtml) in our stack, so we delimit new comments using ESI comments. 
 You could potentially use HTML comments, Rails templates comments or random strings if
