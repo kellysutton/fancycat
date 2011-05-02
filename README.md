@@ -15,11 +15,11 @@ build scripts.
 blip.tv uses Varnish and ESIs, so we use the <esi:comment> tags
 to separate our the different final JS files we want packaged up.
 
-Example:
+Example
+--------
 
-
-  ... 
-  <esi:comment text="Global.js" />
+<pre>
+<esi:comment text="Global.js" />
   <script src="BLIP.js" />
   <script src="BLIP/Object.js" />
 
@@ -28,8 +28,15 @@ Example:
   <script src="Doodad.js" />
  </body>
 </html>
+</pre>
 
 This example causes fancycat.rb to package the BLIP.js and 
 Object.js files into a file called Global.js and Widget.js and
 Doodad.js into Dashboard.js. It is then recommended to minify this file 
 using our standard YUI compressor or another minification tool.
+
+About
+------
+
+Fancycat.rb is used by blip.tv to concatenate their JavaScript for their
+large applications. Originally written by Kelly Sutton.
