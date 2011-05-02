@@ -18,13 +18,13 @@ to separate our the different final JS files we want packaged up.
 Example
 --------
 
-   <esi:comment text="Global.js" />
-   <script src="BLIP.js" />
-   <script src="BLIP/Object.js" />
+	<esi:comment text="Global.js" />
+	<script src="BLIP.js" />
+	<script src="BLIP/Object.js" />
 
-   <esi:comment text="Dashboard.js" />
-   <script src="Widget.js" />
-   <script src="Doodad.js" />
+	<esi:comment text="Dashboard.js" />
+	<script src="Widget.js" />
+	<script src="Doodad.js" />
 
 This example causes fancycat.rb to package the BLIP.js and 
 Object.js files into a file called Global.js and Widget.js and
