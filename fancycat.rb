@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 #
-# fancycat.rb is a script that reads our a list of template files
+# fancycat.rb is a script that reads a list of template files
 # and concatenates them up into one nice package, bearing in mind
 # the best in DRY software. The goal of fancycat is to smartly
 # concatenate a project's JS files based on how they are included in 
